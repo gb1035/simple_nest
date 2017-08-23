@@ -4,7 +4,7 @@ A simple library for interacting with nest thermostats
 ## Setup
 1. Go to https://developers.nest.com and create a developer account
 
-2. Vreate a product. Do not fill in a redirect url, we will use pin-based auth. You need to give the product thermostat access.
+2. Create a product. Do not fill in a redirect url, we will use pin-based auth. You need to give the product thermostat access.
 
 3. Once you are done you will get produc ID, product secret, and authorization URL.
 
