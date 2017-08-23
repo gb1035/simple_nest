@@ -23,3 +23,7 @@ A simple library for interacting with nest thermostats
 ## Examples
 You can find examples in examples.py.
 
+## Nest Docs:
+You can find the documentation for nest at:
+
+https://developers.nest.com/documentation/cloud/api-thermostat
