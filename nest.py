@@ -22,6 +22,7 @@ class NestAuth(AuthBase):
         return r
 
 def nest_post(url, data={}):
+    """Pulls data from the nest api"""
     if data:
         method = requests.put
     else:
@@ -42,14 +43,17 @@ def nest_post(url, data={}):
     return initial_response.json()
 
 def get_devices():
+    """Gets the nest devices"""
     url = base_url[:-1]
     return nest_post(url)
 
 def get_variable(var):
+    """Gets the value requested"""
     url = base_url + creds.device + '/' + var
     return nest_post(url)
 
 def set_variable(var, value):
+    """Sets the value of the variable requested"""
     url = base_url + creds.device + '/' + var
     str_val = json.dumps({var:value})
     return nest_post(url, str_val)
