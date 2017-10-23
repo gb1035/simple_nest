@@ -8,3 +8,4 @@ access_token='FILL_ME_IN'
 
 # id of the thermostat
 device_id = 'FILL_ME_IN'
+
