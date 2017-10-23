@@ -28,4 +28,3 @@ You can find the documentation for nest at:
 
 https://developers.nest.com/documentation/cloud/api-thermostat
 
-
